@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		4BD2F445265B2E95003FE8DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD2F444265B2E95003FE8DC /* AppDelegate.swift */; };
 		4BD2F447265B2E95003FE8DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD2F446265B2E95003FE8DC /* SceneDelegate.swift */; };
-		4BD2F449265B2E95003FE8DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD2F448265B2E95003FE8DC /* ViewController.swift */; };
+		4BD2F449265B2E95003FE8DC /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD2F448265B2E95003FE8DC /* ConversationsViewController.swift */; };
 		4BD2F44C265B2E95003FE8DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD2F44A265B2E95003FE8DC /* Main.storyboard */; };
 		4BD2F44E265B2E98003FE8DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BD2F44D265B2E98003FE8DC /* Assets.xcassets */; };
 		4BD2F451265B2E98003FE8DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD2F44F265B2E98003FE8DC /* LaunchScreen.storyboard */; };
 		4BD2F45C265B2E98003FE8DC /* Firebase_MessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD2F45B265B2E98003FE8DC /* Firebase_MessengerTests.swift */; };
 		4BD2F467265B2E99003FE8DC /* Firebase_MessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD2F466265B2E99003FE8DC /* Firebase_MessengerUITests.swift */; };
+		4BD2F48A265B316E003FE8DC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD2F489265B316E003FE8DC /* LoginViewController.swift */; };
+		4BD2F48F265B317A003FE8DC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD2F48E265B317A003FE8DC /* RegisterViewController.swift */; };
+		4BD2F494265B33D7003FE8DC /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD2F493265B33D7003FE8DC /* PhotoViewerViewController.swift */; };
+		4BD2F499265B33DF003FE8DC /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD2F498265B33DF003FE8DC /* VideoPlayerViewController.swift */; };
+		4BD2F49E265B33FA003FE8DC /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD2F49D265B33FA003FE8DC /* NewConversationViewController.swift */; };
+		4BD2F4A3265B3415003FE8DC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD2F4A2265B3415003FE8DC /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,7 @@
 		4BD2F441265B2E95003FE8DC /* Firebase Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase Messenger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD2F444265B2E95003FE8DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BD2F446265B2E95003FE8DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4BD2F448265B2E95003FE8DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BD2F448265B2E95003FE8DC /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 		4BD2F44B265B2E95003FE8DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BD2F44D265B2E98003FE8DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BD2F450265B2E98003FE8DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		4BD2F462265B2E99003FE8DC /* Firebase MessengerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Firebase MessengerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD2F466265B2E99003FE8DC /* Firebase_MessengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase_MessengerUITests.swift; sourceTree = "<group>"; };
 		4BD2F468265B2E99003FE8DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BD2F489265B316E003FE8DC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4BD2F48E265B317A003FE8DC /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		4BD2F493265B33D7003FE8DC /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		4BD2F498265B33DF003FE8DC /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		4BD2F49D265B33FA003FE8DC /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		4BD2F4A2265B3415003FE8DC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +111,11 @@
 		4BD2F443265B2E95003FE8DC /* Firebase Messenger */ = {
 			isa = PBXGroup;
 			children = (
-				4BD2F444265B2E95003FE8DC /* AppDelegate.swift */,
-				4BD2F446265B2E95003FE8DC /* SceneDelegate.swift */,
-				4BD2F448265B2E95003FE8DC /* ViewController.swift */,
-				4BD2F44A265B2E95003FE8DC /* Main.storyboard */,
-				4BD2F44D265B2E98003FE8DC /* Assets.xcassets */,
-				4BD2F44F265B2E98003FE8DC /* LaunchScreen.storyboard */,
+				4BD2F484265B2F63003FE8DC /* Resources */,
+				4BD2F483265B2F5C003FE8DC /* ViewModels */,
+				4BD2F482265B2F57003FE8DC /* Views */,
+				4BD2F47E265B2F52003FE8DC /* Models */,
+				4BD2F47A265B2F4B003FE8DC /* Controllers */,
 				4BD2F452265B2E98003FE8DC /* Info.plist */,
 			);
 			path = "Firebase Messenger";
@@ -126,6 +137,61 @@
 				4BD2F468265B2E99003FE8DC /* Info.plist */,
 			);
 			path = "Firebase MessengerUITests";
+			sourceTree = "<group>";
+		};
+		4BD2F47A265B2F4B003FE8DC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4BD2F448265B2E95003FE8DC /* ConversationsViewController.swift */,
+				4BD2F489265B316E003FE8DC /* LoginViewController.swift */,
+				4BD2F48E265B317A003FE8DC /* RegisterViewController.swift */,
+				4BD2F493265B33D7003FE8DC /* PhotoViewerViewController.swift */,
+				4BD2F498265B33DF003FE8DC /* VideoPlayerViewController.swift */,
+				4BD2F49D265B33FA003FE8DC /* NewConversationViewController.swift */,
+				4BD2F4A2265B3415003FE8DC /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4BD2F47E265B2F52003FE8DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4BD2F482265B2F57003FE8DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4BD2F485265B2F7D003FE8DC /* Storyboards */,
+				4BD2F44D265B2E98003FE8DC /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4BD2F483265B2F5C003FE8DC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4BD2F484265B2F63003FE8DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4BD2F444265B2E95003FE8DC /* AppDelegate.swift */,
+				4BD2F446265B2E95003FE8DC /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4BD2F485265B2F7D003FE8DC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4BD2F44A265B2E95003FE8DC /* Main.storyboard */,
+				4BD2F44F265B2E98003FE8DC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +324,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BD2F449265B2E95003FE8DC /* ViewController.swift in Sources */,
+				4BD2F48A265B316E003FE8DC /* LoginViewController.swift in Sources */,
+				4BD2F48F265B317A003FE8DC /* RegisterViewController.swift in Sources */,
+				4BD2F49E265B33FA003FE8DC /* NewConversationViewController.swift in Sources */,
+				4BD2F449265B2E95003FE8DC /* ConversationsViewController.swift in Sources */,
+				4BD2F499265B33DF003FE8DC /* VideoPlayerViewController.swift in Sources */,
 				4BD2F445265B2E95003FE8DC /* AppDelegate.swift in Sources */,
+				4BD2F4A3265B3415003FE8DC /* ProfileViewController.swift in Sources */,
 				4BD2F447265B2E95003FE8DC /* SceneDelegate.swift in Sources */,
+				4BD2F494265B33D7003FE8DC /* PhotoViewerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
