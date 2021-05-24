@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Firebase_Messenger_Firebase_MessengerUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Firebase_Messenger_Firebase_MessengerUITests
+@end
