@@ -263,6 +263,7 @@
 				4BD2F43E265B2E95003FE8DC /* Frameworks */,
 				4BD2F43F265B2E95003FE8DC /* Resources */,
 				4238D28453D799B0FBEA42D7 /* [CP] Embed Pods Frameworks */,
+				6DAC3296755E656D9B6124EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -301,6 +302,7 @@
 				4BD2F45F265B2E99003FE8DC /* Frameworks */,
 				4BD2F460265B2E99003FE8DC /* Resources */,
 				1B3257FE4518EF110573B3D7 /* [CP] Embed Pods Frameworks */,
+				264F9F14D7FE531F8063B08E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -422,6 +424,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Firebase Messenger-Firebase MessengerUITests/Pods-Firebase Messenger-Firebase MessengerUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		264F9F14D7FE531F8063B08E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase Messenger-Firebase MessengerUITests/Pods-Firebase Messenger-Firebase MessengerUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase Messenger-Firebase MessengerUITests/Pods-Firebase Messenger-Firebase MessengerUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Firebase Messenger-Firebase MessengerUITests/Pods-Firebase Messenger-Firebase MessengerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4238D28453D799B0FBEA42D7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -459,6 +478,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DAC3296755E656D9B6124EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase Messenger/Pods-Firebase Messenger-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase Messenger/Pods-Firebase Messenger-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Firebase Messenger/Pods-Firebase Messenger-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F9A86AFE26234517041FC924 /* [CP] Check Pods Manifest.lock */ = {

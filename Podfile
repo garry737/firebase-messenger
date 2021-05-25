@@ -15,6 +15,9 @@ pod 'Firebase/Database'
 #Facebook
 pod 'FBSDKLoginKit'
 
+#Google Sign In
+pod 'GoogleSignIn'
+
   target 'Firebase MessengerTests' do
     inherit! :search_paths
     # Pods for testing
